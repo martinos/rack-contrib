@@ -1,4 +1,8 @@
 # Rakefile for Rack::Contrib.  -*-ruby-*-
+
+require 'bundler'
+Bundler::GemHelper.install_tasks
+
 require 'rake/rdoctask'
 require 'rake/testtask'
 

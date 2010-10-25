@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    json (1.4.6)
+    rack (1.1.0)
+    test-spec (0.10.0)
+    tmail (1.2.7.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json (>= 1.1)
+  rack (>= 0.9.1)
+  rack-contrib!
+  test-spec (>= 0.9.0)
+  tmail (>= 1.2)
